@@ -47,7 +47,8 @@ void bubbleSortArray(
         for (int j = 0; j <= nPanjang -1 - pass; j++
         )
         {
-            if (element[j] > element[j + 1]
+            if (element[j] > element[j + 1
+            ]
             )
             {
               int temp = element[j];
@@ -83,7 +84,8 @@ void display(
 }
 
 
-void binarrySearch(
+void binarrySearch
+(
 
 )
 {
