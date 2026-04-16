@@ -56,7 +56,8 @@ void bubbleSortArray(
              
         }
         pass++;
-    } while (pass <= nPanjang - 1);
+    } while (pass <= nPanjang - 1
+    );
     
 }
 
@@ -78,7 +79,9 @@ void display()
 }
 
 
-void binarrySearch()
+void binarrySearch(
+
+)
 {
     char ulang;
     do
