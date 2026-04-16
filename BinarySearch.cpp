@@ -47,7 +47,8 @@ void bubbleSortArray(
         for (int j = 0; j <= nPanjang -1 - pass; j++
         )
         {
-            if (element[j] > element[j + 1])
+            if (element[j] > element[j + 1]
+            )
             {
               int temp = element[j];
               element[j] = element[j + 1];
@@ -103,17 +104,20 @@ void binarrySearch(
         {
             int mid = (low + high) / 2;
             
-            if (element[mid] == x)
+            if (element[mid] == x
+            )
             {
                 cout << "\n[T] Elemen " << x << "ditemukan pada indeks " << "\n";
                 return;
             }
 
-            if (x < element[mid])
+            if (x < element[mid]
+            )
             {
                 high = mid -1;
             }
-            if (x > element[mid])
+            if (x > element[mid]
+            )
             {
                 low = mid + 1;
             }
